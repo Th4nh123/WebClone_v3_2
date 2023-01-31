@@ -1,0 +1,280 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.container {
+
+}
+img{
+    /*width: 100%;*/
+    max-width: 100%;
+    height: auto;
+}
+/*.wp-image-389,.wp-image-542{*/
+/*    width: 70px!important;*/
+
+/*}*/
+p, span {
+    font-size: 1.4rem;
+}
+a:hover{
+    color: red!important;
+}
+ul,
+li {
+    padding: 0 !important;
+    list-style: none;
+}
+
+a {
+    color: #0070c0;
+    text-decoration: none;
+}
+
+input[type="submit"] {
+    background-color: #e64d4f;
+    color: #fff !important;
+}
+
+.input-group {
+
+}
+
+.block-nav {
+    border-top: 3px solid red;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #fcf8f0 0%, #dedad2 100%) repeat scroll 0 0;
+}
+
+.block-nav .list-menu .item-menu {
+    padding: 10px;
+}
+
+.block-nav .list-menu .item-menu > a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.block-nav .list-menu .item-menu:hover > a {
+    color: red;
+}
+
+.category-item {
+    margin-bottom: 2rem;
+}
+
+.text-decrip-2 {
+    line-height: 1.6rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.text-decrip-4 {
+    line-height: 1.6rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.content .content-left .block-arti .arti-left > a > img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.content .content-left .block-arti .arti-left > h3 {
+    margin: 1rem 0;
+}
+.arti-right{
+    max-width: 100%;
+    display: block;
+
+}
+.content .content-left .block-arti .arti-right .list-topic .itemtopic {
+    border-bottom: 1px solid rgba(160, 160, 160, 0.548);
+}
+
+.footer .list-tag .item-tag {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px 10px !important;
+    display: inline-block;
+    border-radius: 2px;
+    background: #e3e3e3;
+}
+
+.footer .list-tag .item-tag > a {
+    color: #666;
+
+
+}
+
+.footer .list-tag .item-tag:hover > a {
+    color: black;
+}
+
+.title-theme > strong {
+    text-transform: uppercase;
+}
+
+.entry-header {
+    margin-bottom: 20px
+}
+
+.entry-content {
+    line-height: 1.7;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+h1.entry-title {
+    border-left: 10px solid #e64d4f;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 32px;
+    margin: 0 0 20px;
+    padding-left: 15px;
+}
+
+.post-meta {
+    color: #999;
+    font-size: 13px;
+}
+
+.post-meta > span {
+    margin-right: 10px;
+}
+
+.post-meta, .meta-date {
+    color: #999;
+    font-size: 12px;
+}
+
+.wp-block-image > img,
+.aligncenter > img {
+    width: 100%;
+}
+
+h2.entry-title {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0 0 5px;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.loop-post-related .entry-title {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0;
+}
+
+.hocwp-share {
+    border-top: 1px solid #eee;
+    display: table;
+    margin: 15px 0 10px;
+    padding-top: 15px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.hocwp-share > * {
+    display: table-cell;
+    padding: 0 10px;
+}
+
+.size-full {
+    width: 100%;
+}
+
+.loop-post {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.hoverflow {
+    overflow: hidden;
+}
+
+.loop-post .post-thumbnail {
+    float: left;
+    margin-right: 15px;
+    width: 200px;
+}
+
+.hloop .post-thumbnail {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.readmore {
+    margin-top: 5px;
+    text-align: right;
+}
+
+.readmore > a {
+    color: #e64d4f;
+}
+
+.search-field {
+    border: 1px solid #dddddd;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    height: 34px;
+    padding: 6px 8px;
+}
+
+@media (min-width: 992px ) and (max-width: 20000px) {
+    .title {
+        display: block;
+    }
+
+    .title-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 768px)  and (max-width: 992px) {
+    .title {
+        display: block;
+    }
+
+    .title-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 576px)  and (max-width: 768px) {
+    .title {
+        display: none;
+    }
+
+    .title-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        display: none;
+    }
+
+    .title-mobile {
+        display: block;
+    }
+}
+
+.has-vivid-red-color {
+    color: red;
+}
